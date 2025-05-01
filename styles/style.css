@@ -78,6 +78,8 @@ ol {
 }
 
 .content__list-container {
+  width: 399px;
+  height: 299px;
   position: relative;
   margin-top: 4px;
   overflow-y: auto;
@@ -159,6 +161,7 @@ ol {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4; 
+  line-clamp: 4; 
   
 }
 
@@ -168,6 +171,11 @@ ol {
   display: block;
   width: 100%;
   height: 100%;
+}
+
+.content__card-link_current{
+  display: block;
+  background-color: #545050;
 }
 
 .search-form__fieldset {
